@@ -59,8 +59,7 @@ with col2:
     if st.button("🚀 Predict AI Risk"):
 
         with st.spinner("Analyzing..."):
-            url = "http://127.0.0.1:8000/predict"
-
+            url = "https://ai-jobrisk-predictor.onrender.com/predict"
             data = {
                 "job_role": selected_job,
                 "automation_risk_percent": automation_risk,
